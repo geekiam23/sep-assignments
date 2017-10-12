@@ -1,0 +1,1 @@
+1. Spatial Locality is when the processor retrieves an entire range of locations and stores it in the Cache. For example, if I was looking at a webpage. The processor wouldn't just place the single webpage in the cache, it would place the entire website in the cache. It benefits performance because it reduces the number of times that it has to access the RAM.
