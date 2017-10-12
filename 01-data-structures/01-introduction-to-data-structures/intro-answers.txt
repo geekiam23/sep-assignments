@@ -1,0 +1,17 @@
+1. The data structure in this exercise allows developers to access and manipulate data by using arrays. In the first example, we use an array as a line. It allows us to manipulate the line in many different ways. In the second example, we use an array inside of another array to create a screen and align pixel by width and height.
+
+2a. In the first example, I created a search method so that anyone can find a specific person in the line no matter where they are.
+(ex.
+  ferrisWheel = Line.new()
+  ferrisWheel.search(Will)
+  )
+
+2b. In the second example, we use a class method that is accessible through the Array class
+(ex.
+  macComputer = Screen.new(1200, 800)
+  macComputer.at(100, 500)
+  )
+
+3a. The first example can represent any real world data that is linear. For example, a line at the grocery store to a line of products waiting to be stocked to a list of stores waiting to be opened.
+
+3b. The second example can represent any real world data that is a grid. For example, a television screen to a map of a neighborhood to an art project that is being stenciled out. 
