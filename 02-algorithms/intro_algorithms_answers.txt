@@ -1,23 +1,30 @@
 def gettingDress
   IF the weather is above 50 degrees
-    grab short sleeve short and 
+    grab short sleeve shirt and shorts
+  ELSE the weather is between 40 and 50 degrees
+    grab shorts and long sleeve shirt 
+  END
+  put on shirt and shorts
+  grab and put on shoes that are the closest to me
+END
 
+def setAlarm
+  IF the day is Mon - Fri
+    set the time to go off at 7am
+  ELSIF the day is Sun
+    set the time to go off at 9am
+  ELSE
+    DO NOT THINK ABOUT GOING OFF
+  END
+END
 
-
-Making peanut butter and jelly sandwiches
-- Walk into the kitchen
-- Open the pantry
-- Grab the bread, peanut butter and jelly
-- Grab a plate
-- Open the bread
-- Grab two slices of bread
-- Spread the peanut butter on one slice of bread
-- Spread the jelly on the other slice of bread
-- Put the two slices of bread together
-- Grab a glass of milk
-- Enjoy!!!
-
-Brushing my teeth
-- Grab toothbrush
-- Rinse toothbrush
-- Put toothpaste
+def whereToWorkout
+  put on athletic shoes
+  IF I feel like cardio
+    go on a run
+  ELSIF I feel like a strength day
+    go to the gym
+  ELSE
+    go to orangetheory
+  END
+END
