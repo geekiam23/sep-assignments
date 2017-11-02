@@ -1,0 +1,30 @@
+def gettingDress
+  IF the weather is above 50 degrees
+    grab short sleeve shirt and shorts
+  ELSE the weather is between 40 and 50 degrees
+    grab shorts and long sleeve shirt 
+  END if
+  put on shirt and shorts
+  grab and put on shoes that are the closest to me
+END def
+
+def setAlarm
+  IF the day is Mon - Fri
+    set the time to go off at 7am
+  ELSIF the day is Sun
+    set the time to go off at 9am
+  ELSE
+    DO NOT THINK ABOUT GOING OFF
+  END if
+END def
+
+def whereToWorkout
+  put on athletic shoes
+  IF I feel like cardio
+    go on a run
+  ELSIF I feel like a strength day
+    go to the gym
+  ELSE
+    go to orangetheory
+  END if
+END def
