@@ -19,3 +19,17 @@ n = 17            |	fib(n-2) = "610"	| fib(n-1) = "987"	| fib(n) = 1597
 n = 18            |	fib(n-2) = "987"	| fib(n-1) = "1597"	| fib(n) = 2584
 n = 19            |	fib(n-2) = "1597"	| fib(n-1) = "2584"	| fib(n) = 4181
 n = 20            |	fib(n-2) = "2584"	| fib(n-1) = "4181"	| fib(n) = 6765
+
+  
+1. If I had an unsorted collection of a million terms, I would use the linear search and the iteration solution to find the answer.
+   I would chose linear search because it will take less amount of iterations to find the answer. If I used the binary search, I would 
+   have to go through the data structure a million times to sort it before I could even start searching for the answer. 
+     
+   I would use the iteration method because it would be faster than the recursive and there is not a good reason to call the method 
+   on itself. 
+   
+2. If I had a sorted collection of a million terms, I would use the binary search and the recursive solution to find the answer.
+   I would chose binary search because it will take about 20 iterations to find the answer. If I used the linear search, It could 
+   take up to a million times to go through the data structure.  
+     
+   I would use the recursive method and call the method on itself by passin in the new low, mid, and high values everytime. 
