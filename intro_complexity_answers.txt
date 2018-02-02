@@ -1,0 +1,26 @@
+1) An algorithm that has O(1) is a hare and an algorithm that has O(2^n) is a turtle.
+
+2) The best case scenario in a binary search is that the computer will find the item on the first try.
+
+3) The worst case scenario in a binary search is that the computer will find the item on the last try. 
+
+4) The bounded case scenario in a binary search is that the computer will find the item between the best and worse case.
+
+5) Created chart in Google Sheets
+
+6) lim n = ∞
+
+7) O(2^n)
+
+8)
+def find_it(n)
+  return 2**n
+end
+
+9) 
+
+10) O(n)
+
+11) Ω(1)
+
+12) Ө(logn) 
