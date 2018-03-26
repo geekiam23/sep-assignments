@@ -13,9 +13,12 @@
 7) O(2^n)
 
 8)
-def find_it(n)
-  return 2**n
+def linear_fn(n)
+	for i in 1..n 
+		puts "#{i}, #{i}"
+	end
 end
+
 
 9) 
 
